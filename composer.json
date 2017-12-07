@@ -1,0 +1,12 @@
+{
+    "name": "tv5monde/nux-ini",
+    "description": "fake root package to load nux project if available",
+    "type": "project",
+    "keywords": ["nux", "loader"],
+    "license": "proprietary",
+    "autoload": {
+        "files": [
+            "/src/ini.php"
+        ]
+    }
+}
